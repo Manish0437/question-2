@@ -1,0 +1,16 @@
+2024-02-01 05:36:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO restaurant (name, address, cuisineType, rating)\000d\000aVALUES('Fine Dining', '123 Main St', 'European', 5),\000d\000aINSERT [*]INTO restaurant (name, address, cuisineType, rating)\000d\000aVALUES('Taco Bell', '456 Elm St', 'Fast Food', 3),\000d\000aINSERT INTO restaurant (name, address, cuisineType, rating)\000d\000aVALUES('Sushi Place', '789 Oak St', 'Japanese', 4)"; SQL statement:
+INSERT INTO restaurant (name, address, cuisineType, rating)
+VALUES('Fine Dining', '123 Main St', 'European', 5),
+INSERT INTO restaurant (name, address, cuisineType, rating)
+VALUES('Taco Bell', '456 Elm St', 'Fast Food', 3),
+INSERT INTO restaurant (name, address, cuisineType, rating)
+VALUES('Sushi Place', '789 Oak St', 'Japanese', 4) [42000-214]
+2024-02-01 05:36:53 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO restaurant (name, address, cuisineType, rating)\000d\000aVALUES('Fine Dining', '123 Main St', 'European', 5),\000d\000aINSERT [*]INTO restaurant (name, address, cuisineType, rating)\000d\000aVALUES('Taco Bell', '456 Elm St', 'Fast Food', 3),\000d\000aINSERT INTO restaurant (name, address, cuisineType, rating)\000d\000aVALUES('Sushi Place', '789 Oak St', 'Japanese', 4)"; SQL statement:
+INSERT INTO restaurant (name, address, cuisineType, rating)
+VALUES('Fine Dining', '123 Main St', 'European', 5),
+INSERT INTO restaurant (name, address, cuisineType, rating)
+VALUES('Taco Bell', '456 Elm St', 'Fast Food', 3),
+INSERT INTO restaurant (name, address, cuisineType, rating)
+VALUES('Sushi Place', '789 Oak St', 'Japanese', 4) [42000-214]
